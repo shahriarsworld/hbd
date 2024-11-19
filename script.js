@@ -44,10 +44,13 @@ function showPopup() {
     }, 10000); // Wait for 10 seconds before showing memories
 }
 
-// Show the Our Memories section
+// Show the Our Memories and My Beautiful Girl sections
 function showOurMemories() {
     ourMemoriesSection.style.display = 'block';
+    let myBeautifulGirlSection = document.getElementById('myBeautifulGirl');
+    myBeautifulGirlSection.style.display = 'block';
 }
+
 
 // Close the popup
 popupClose.addEventListener('click', function () {
